@@ -1,6 +1,6 @@
 # Blur Detection
 
-NOTEBOOK: [Blur Detection.ipynb](https://colab.research.google.com/drive/1PKNfRPT8aeP3uM4bCwAQMCRwgrH-maZa?usp=drive_link)
+NOTEBOOK: [Blur Detection.ipynb](https://colab.research.google.com/drive/1PKNfRPT8aeP3uM4bCwAQMCRwgrH-maZa?usp=sharing)
 
 DATASET: [Blurring](https://drive.google.com/drive/folders/1qsZnHFWoTdefVivIgwiJuZFAAMYohnsQ?usp=drive_link)
 
