@@ -14,7 +14,7 @@ The blur detection is done on the videos recorded and uploaded to the C3V2 platf
 
 
 #### TEST PLAN
-The blur score in this code is being calculated using the Laplacian variance method, specifically by measuring the variance of the Laplacian of each frame. Here's how the blur score calculation works:
+The blur score in this code is calculated using the Laplacian variance method, specifically by measuring the variance of the Laplacian of each frame. Here's how the blur score calculation works:
 
 #### 1. _Laplacian Transformation:_
 
@@ -30,23 +30,23 @@ To visualize the blur score on each frame, the code draws a red rectangle on the
 
 ##### 4. _Average Blur Score:_
 
-After processing all frames, the code calculates the average blur score (avg) by summing up all the individual blur scores and dividing by the total number of frames. This average score provides an overall measure of the video's bluriness.
+After processing all frames, the code calculates the average blur score (avg) by summing up all the individual blur scores and dividing by the total number of frames. This average score provides an overall measure of the video's blurriness.
 
 ## KEY RESULTS
-After running the code through multiple videos, you can categorise the following blur scores in the following categories:
+After running the code through multiple videos, you can categorize the following blur scores in the following categories:
 
-fm < 120 -> no information is retrievable from the image whatsoever, i.e. completely blur.
+*fm < 120* -> no information is retrievable from the image whatsoever, i.e. completely blurred.
 
 ![image](https://github.com/Erkesto/Nayan_internship/assets/62474995/92fd3c0c-4fcd-4db5-9776-705c18cb0ae4)
 
-fm > 120 && fm < 640 -> somewhat information can be retrieved form the image, but the whole image is still not completely clear.
+*fm > 120 && fm < 640* -> somewhat information can be retrieved from the image, but the whole image is still not completely clear.
 
 ![image](https://github.com/Erkesto/Nayan_internship/assets/62474995/3f0ad005-196b-456d-9907-9ce15ec54815)
 
-fm > 640 -> The image has enough information and is considered not blur.
+*fm > 640* -> The image has enough information and is considered not blurry.
 
 ![image](https://github.com/Erkesto/Nayan_internship/assets/62474995/ecb49fa6-6e7c-4fa5-97e4-a836e03aa18d)
 
 *fm score = Blur Score
 *exceptions can occur.
-0 is whites in the image that is blur/ blur images and 1> is sharp images with defined borders that is not blur 
+0 is whites in the image that is blur/ blur images and 1> is sharp images with defined borders that are not blur 
